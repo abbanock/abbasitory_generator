@@ -1,0 +1,55 @@
+.container {
+    width: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #8c92bb;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.main-title {
+    margin-left: 18px;
+}
+.result {
+    width: 550px;
+    height: 53px;
+    font-size: 23px;
+    line-height: 53px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border: 1px black solid;
+    border-radius: 4px;
+    background-color: #6f7494;
+    font-weight: 500;
+    justify-content: space-between;
+    display: flex;
+}
+.settings {
+    margin: 15px 0 15px 18px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.copy {
+}
+div {
+}
+.wrapper {
+    margin: 0 15px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper label {
+}
+.wrapper .spaces {
+}
+.wrapper .none-repeats {
+}
+.wrapper br {
+}
+.wrapper .uppers {
+}
+.wrapper .lowers {
+}
+.wrapper .specials {
+}
+.wrapper .numbers {
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="main-title">Генератор Паролей</h2>
+        <div class="result">
+           <div>результат</div>
+            <span class="copy">Copy</span>
+        </div>
+
+
+
+        <div class="settings">Настройки пароля</div>
+        <div class="wrapper">
+            <label for="symbols-repeat">
+                <input type="checkbox" name="variations" class="spaces"> Включить пробелы
+            </label>
+
+            <label for="symbols-repeat">
+                <input type="checkbox" name="variations" class="none-repeats"> Без повторения символов
+            </label>
+            <br>
+            <label for="variations">
+                <input type="checkbox" name="variations" class="uppers"> Заглавные буквы (A-Z)
+            </label>
+
+            <label for="variations">
+                <input type="checkbox" name="variations" class="lowers" checked> Прописные буквы (a-z)
+            </label>
+            <br>
+            <label for="variations">
+                <input type="checkbox" name="variations" class="specials" checked> Cпециальные символы (!-$^+)
+            </label>
+
+            <label for="variations">
+                <input type="checkbox" name="variations" class="numbers" checked> Числа (0-9)
+            </label>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body></html>
